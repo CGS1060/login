@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#F8F8F8;
+	}
+header{
+	width:960px;
+	height:100px;
+	margin:auto;
+	padding:10px;
+	background: #93cede; /* Old browsers */
+background: -moz-linear-gradient(top,  #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93cede), color-stop(41%,#75bdd1), color-stop(100%,#49a5bf)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
+	margin-bottom:100px;
+	}
+header h1{
+	margin:0px;
+	color:#FFF;
+	}
+section{
+	-webkit-box-shadow: 10px 10px 131px 0px rgba(148,148,148,1);
+-moz-box-shadow: 10px 10px 131px 0px rgba(148,148,148,1);
+box-shadow: 10px 10px 131px 0px rgba(148,148,148,1);
+
+	margin:auto;
+	width:200px;
+	height:100px;
+	padding:30px;
+	border:1px solid #CCC;
+	background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+	}
+footer{
+	margin:auto;
+	width:960px;
+	}
